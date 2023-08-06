@@ -1,0 +1,180 @@
+.center {
+    text-align: center;
+}
+
+.line-spacing {
+    line-height: 1.6;
+}
+
+.img-resize {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.dark-mode-switch {
+    padding: 10px;
+}
+
+.typography-intro {
+    padding: 0.2em;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: .01em;
+}
+
+.sub-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+a.privacy:visited,
+a.privacy:link {
+    color: #cacdd2;
+    text-decoration: none;
+}
+
+a.privacy:hover,
+a.privacy:active {
+    color: #cacdd2;
+    text-decoration: underline;
+}
+
+.dark-mode {
+    background-color: #202124;
+    color: #D1CDC7;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.socials {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1.5rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    width: 20px;
+
+    transition: color .4s ease;
+
+}
+
+.socials a:hover i.twitter {
+    color: #1D9BF0;
+}
+
+.socials a:hover i.youtube {
+    color: #FF0002;
+}
+
+.socials a:hover i.linkedin {
+    color: #0B66C2;
+}
+
+.socials a:hover i.instagram {
+    color: #F9651F;
+}
+
+
+.highlight {
+    background-color: #fdfd20;
+    color: #212529;
+}
+
+
+#b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.rotate {
+    animation: rotation 3s infinite linear;
+}
+
+.zoom-in-zoom-out {
+    animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.5, 1.5);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
